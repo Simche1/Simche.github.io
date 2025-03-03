@@ -49,12 +49,27 @@
         .btn:hover {
             background: #0056b3;
         }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 15px;
+            background: #5865F2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .social-links a:hover {
+            background: #404EED;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Contact Me</h1>
-        <p>Feel free to reach out via the form below.</p>
+        <p>Feel free to reach out via the form below or connect with me on Discord.</p>
         
         <form action="#" method="post">
             <input type="text" name="name" placeholder="Your Name" required>
@@ -62,6 +77,10 @@
             <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
             <button type="submit" class="btn">Send Message</button>
         </form>
+        
+        <div class="social-links">
+            <a href="https://discord.gg/gwKqZruD" target="_blank">Join me on Discord</a>
+        </div>
     </div>
 </body>
 </html>
